@@ -1,0 +1,34 @@
+{
+  "name": "lwe8-textile-shiki",
+  "version": "0.1.0",
+  "description": "Textile extension for ShikiJs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/lwe8-textile-shiki.git"
+  },
+  "keywords": [
+    "Textile",
+    "Shiki"
+  ],
+  "author": "Pho Thin Mg <phothinmg@disroot.org>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/phothinmg/lwe8-textile-shiki/issues"
+  },
+  "homepage": "https://github.com/phothinmg/lwe8-textile-shiki#readme",
+  "dependencies": {
+    "@shikijs/types": "^3.3.0",
+    "lwe8-build": "^0.2.0",
+    "lwe8-textile-types": "^0.1.1"
+  }
+}
